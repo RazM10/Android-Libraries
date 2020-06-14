@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
     public void gotFormValidation(View view) {
         startActivity(new Intent(MainActivity.this, FormValidationActivity.class));
     }
+
+    public void goToNoInternetCheck(View view) {
+        startActivity(new Intent(MainActivity.this, NoInternetCheckActivity.class));
+    }
 }

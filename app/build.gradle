@@ -26,4 +26,6 @@ dependencies {
 
     //form validation
     implementation 'de.psdev.formvalidations:formvalidations:1.2.0'
+    //Internet connectin check
+    implementation 'am.appwise.components:NoInternetDialog:1.1.3'
 }
