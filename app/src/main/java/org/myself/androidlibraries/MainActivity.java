@@ -21,4 +21,8 @@ public class MainActivity extends AppCompatActivity {
     public void goToNoInternetCheck(View view) {
         startActivity(new Intent(MainActivity.this, NoInternetCheckActivity.class));
     }
+
+    public void goToToasty(View view) {
+        startActivity(new Intent(MainActivity.this, ToastyActivity.class));
+    }
 }

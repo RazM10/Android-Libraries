@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:theme">
-        <activity android:name=".NoInternetCheckActivity"></activity>
+        <activity android:name=".ToastyActivity"></activity>
+        <activity android:name=".NoInternetCheckActivity" />
         <activity android:name=".FormValidationActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
